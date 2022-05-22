@@ -1,0 +1,32 @@
+.x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    position: absolute;
+    top: 10px;
+    width: 20ch;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(45, 45, 227);
+    border-radius: 5px;
+    color: white;
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color: blue;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
